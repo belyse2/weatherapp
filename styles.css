@@ -1,0 +1,90 @@
+body {
+  background: #71A69D;
+  letter-spacing: 0.2em;
+  font-size: 0.75em;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 360px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.icon {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -60px;
+  margin-top: 10%;
+  margin-left: 35%;
+}
+
+h1,
+form {
+  text-align: center;
+}
+
+h1 {
+  background-color:#A4BFB5;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 320px;
+}
+.card {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.time {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.details {
+  padding: 10px;
+}
+
+.details h5 {
+  margin-top: 0;
+}
+
+.details div:first-of-type {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.details div:last-of-type {
+  font-size: 40px;
+  font-weight: bold;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.d-none {
+  display: none;
+}
+
